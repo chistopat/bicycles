@@ -91,7 +91,6 @@ namespace bicycles::linked_list {
         linkedList.PopFront();
         linkedList.PushFront(0);
         ASSERT_EQUAL(linkedList.ToVector(), std::vector<int>({0, 3}));
-
     }
 
     void TestAll() {
